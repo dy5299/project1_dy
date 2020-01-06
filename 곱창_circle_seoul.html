@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5423a80038a34d7db3892813ab817c1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5423a80038a34d7db3892813ab817c1a" ></div>
+        
+</body>
+<script>    
+    
+            var map_5423a80038a34d7db3892813ab817c1a = L.map(
+                "map_5423a80038a34d7db3892813ab817c1a",
+                {
+                    center: [37.514322572335935, 127.06283102249932],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c41af0cc55a46dab3009e8c66be76dd = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            var circle_marker_4e5750bdd8424ac083492bd75544b025 = L.circleMarker(
+                [37.0044080951945, 127.111807503324],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_4e5750bdd8424ac083492bd75544b025.bindTooltip(
+                `<div>
+                     평택시 소사벌지구
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d70fd0f09c084d8daf2bb05710da55d0 = L.circleMarker(
+                [33.2896344311608, 126.370009467525],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_d70fd0f09c084d8daf2bb05710da55d0.bindTooltip(
+                `<div>
+                     카멜리아 힐
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1644c70edaaf4fe9bd2b48d7fb933cb8 = L.circleMarker(
+                [37.4963172817574, 126.953621963422],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_1644c70edaaf4fe9bd2b48d7fb933cb8.bindTooltip(
+                `<div>
+                     숭실대입구역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a41440e6b8fc4064a86327ed1fd72570 = L.circleMarker(
+                [37.2050369866933, 126.816757816982],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_a41440e6b8fc4064a86327ed1fd72570.bindTooltip(
+                `<div>
+                     남양
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3bd540e0b1744433936a0fedbf4d1e88 = L.circleMarker(
+                [37.5781345415435, 127.056445350862],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_3bd540e0b1744433936a0fedbf4d1e88.bindTooltip(
+                `<div>
+                     은하곱창
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_77edaa6b69b84d85a71023bf245641d0 = L.circleMarker(
+                [37.5347843171332, 126.902611795523],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_77edaa6b69b84d85a71023bf245641d0.bindTooltip(
+                `<div>
+                     당산역
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7c3a15101194aaf94b51a820364d7db = L.circleMarker(
+                [37.496055336669706, 126.85942346148695],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_b7c3a15101194aaf94b51a820364d7db.bindTooltip(
+                `<div>
+                     구로동어딘가
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e70bf5a8ccc42bbb8e869fbdf2cac22 = L.circleMarker(
+                [35.9856633057415, 126.71133328573],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_6e70bf5a8ccc42bbb8e869fbdf2cac22.bindTooltip(
+                `<div>
+                     군산 순돌이곱창
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4b80dde31264fff915b690ac162dbb2 = L.circleMarker(
+                [37.532849316657, 126.993804497236],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_e4b80dde31264fff915b690ac162dbb2.bindTooltip(
+                `<div>
+                     Itaewon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9545baf8c2344dbd8c52d863a6a1dd92 = L.circleMarker(
+                [35.8759487657024, 128.596277196438],
+                {"bubblingMouseEvents": true, "color": "#FCAE1E", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFDB58", "fillOpacity": 0.03, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1, "radius": 3.0, "stroke": true, "weight": 4}
+            ).addTo(map_5423a80038a34d7db3892813ab817c1a);
+        
+    
+            circle_marker_9545baf8c2344dbd8c52d863a6a1dd92.bindTooltip(
+                `<div>
+                     Daegu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
